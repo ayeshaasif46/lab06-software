@@ -1,1 +1,1 @@
- apt update just only downloads the list of new packages while apt upgrade actually installs them.
+apt update only downloads the latest package lists from the repositories and does not install or upgrade any software. On the other hand, apt upgrade actually downloads and installs the newer versions of currently installed packages based on that list. Therefore, we always run apt update first to fetch the newest version info before running apt upgrade.
